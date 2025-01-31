@@ -1,0 +1,16 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.ant-layout-sider {
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+}
+.ant-layout-header {
+  background: #fff;
+  padding: 0 16px;
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+.ant-card {
+  box-shadow: 0 2px 8px #f0f1f2;
+}

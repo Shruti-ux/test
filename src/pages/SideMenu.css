@@ -1,0 +1,51 @@
+.hover-card-container {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: border 0.3s, border-radius 0.3s;
+  cursor: pointer;
+  width: 100px; /* added width */
+  background-color: #f7f7f7; /* added background color */
+}
+
+.icon {
+  font-size: 24px;
+  color: #ff4d4f;
+}
+
+.icon-name {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.hover-card:hover {
+  border: 1px solid #ff4d4f;
+  border-radius: 20px;
+  background-color: #fff; /* changed background color on hover */
+}
+
+.hover-card:hover .icon {
+  display: none; /* hide the original icon */
+}
+
+.hover-card:hover::before {
+  font-size: 24px;
+  color: #ff4d4f;
+  content: "\F061"; /* DollarOutlined icon */
+  display: inline-block;
+}
+
+.hover-card:hover .icon-name {
+  visibility: visible;
+  opacity: 1;
+}

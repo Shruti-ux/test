@@ -1,0 +1,91 @@
+.divmuiavatarRootIcon,
+.separator {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.separator {
+  align-self: stretch;
+  height: 1.1px;
+  border-bottom: 1.1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.divmuiavatarRootIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+}
+.replyUserAvatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.typeYourReply {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 104px;
+}
+.fieldsetstyles,
+.replyPlaceholderContainer {
+  height: 105px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+}
+.fieldsetstyles {
+  width: 653.4px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.replyPlaceholderContainer {
+  flex: 1;
+  padding: var(--padding-lgi-9) var(--padding-sm) var(--padding-xl);
+}
+.fieldset,
+.replyInputContainer,
+.replyInputContent,
+.replyPlaceholderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fieldset {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 424px;
+  z-index: 1;
+}
+.replyInputContainer,
+.replyInputContent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.replyInputContainer {
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs-2);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .fieldset {
+    min-width: 100%;
+  }
+  .replyInputContent {
+    flex-wrap: wrap;
+  }
+}

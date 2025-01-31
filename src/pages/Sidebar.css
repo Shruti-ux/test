@@ -1,0 +1,23 @@
+/* App.css */
+.logo {
+  text-align: center;
+  font-size: 24px;
+  color: #ff4d4f;
+  margin: 16px 0;
+}
+
+.ant-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  font-size: 24px;
+}
+
+.ant-menu-item-selected {
+  background-color: #f0f0f0 !important;
+}
+
+.ant-layout-sider {
+  background: #ffffff !important;
+}

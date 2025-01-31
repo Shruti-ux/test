@@ -1,0 +1,136 @@
+.buttonSearch {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 19.99px;
+}
+.buttonSearchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-3) 0 0;
+}
+.buttonLanguage {
+  height: 50.6px;
+  width: 44px;
+  position: relative;
+  border-radius: 23.65px;
+  object-fit: cover;
+}
+.svgIcon {
+  position: absolute;
+  height: calc(100% - 16px);
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  max-height: 100%;
+  width: 24px;
+  overflow: hidden;
+}
+.badgeCount {
+  text-decoration: none;
+  position: relative;
+  line-height: 12px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 8px;
+}
+.spanmuibadgeBadge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-tomato);
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-8) var(--padding-8xs) var(--padding-6xs-2)
+    var(--padding-7xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.buttonNotifications {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  border-radius: 19.99px;
+}
+.buttonNotificationsWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-3) 0 0;
+}
+.buttonContacts {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 19.99px;
+}
+.contactButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-3) 0 0;
+}
+.divmuiavatarRootIcon {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+  border-radius: var(--br-base);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.contactButtons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-3) 0 0;
+}
+.header,
+.userActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.userActions {
+  width: 211.8px;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.header {
+  align-self: stretch;
+  backdrop-filter: blur(6px);
+  background-color: var(--color-gray-300);
+  justify-content: space-between;
+  padding: var(--padding-6xs-7) var(--padding-base);
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}

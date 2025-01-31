@@ -1,0 +1,718 @@
+.navListItemButtonS {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 75px;
+}
+.navListItemButtonCWrapper,
+.navListItemButtonSParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonCWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.navListItemButtonSParent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent,
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-4xs-1);
+}
+.navListItemButtonS2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 62px;
+}
+.navListItemButtonPWrapper,
+.navListItemButtonSGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonPWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.navListItemButtonSGroup {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameGroup,
+.menuItems1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navListItemButtonS4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList2 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 47px;
+}
+.frameDiv,
+.navListItemButtonOWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonOWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS5 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameContainer,
+.menuItems2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navListItemButtonS6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList3 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 57px;
+}
+.navListItemButtonIWrapper,
+.navListItemButtonSParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonIWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.navListItemButtonSParent1 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS7 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent1,
+.menuItems3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems3 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navListItemButtonS8 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList4 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 62px;
+}
+.navListItemButtonLWrapper,
+.navListItemButtonSParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonLWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.navListItemButtonSParent2 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS9 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent2,
+.menuItems4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent2 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navListItemButtonS10 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList5 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 64px;
+}
+.navListItemButtonAWrapper,
+.navListItemButtonSParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonAWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.navListItemButtonSParent3 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS11 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent3,
+.menuItems5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems5 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navList6,
+.navListItemButtonS12 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.navListItemButtonS12 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+.navList6 {
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 82.2px;
+}
+.navListItemButtonJWrapper,
+.navListItemButtonSParent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonJWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.navListItemButtonSParent4 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS13 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent4,
+.menuItems6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent4 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems6 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) var(--padding-5xs);
+}
+.navListItemButtonS14 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList7 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.navListItemButtonSParent5,
+.navListItemButtonSWrapper5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemButtonSWrapper5 {
+  flex-direction: column;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.navListItemButtonSParent5 {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.navListItemButtonS15 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navListItemButtonSWrapper6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameParent5,
+.menuItems7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent5 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuItems7 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.blog,
+.svgIcon {
+  position: relative;
+}
+.svgIcon {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.blog {
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 31px;
+}
+.blogButtonContent,
+.blogLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blogLabel {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.blogButtonContent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.svgIcon1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.svgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.navListItemButton,
+.navListItemButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.navListItemButton {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-10xs-7);
+  gap: var(--gap-xl);
+}
+.navListItemButtonWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs-7);
+  color: var(--color-white);
+}
+.navList8 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 54px;
+}
+.navListItemListIteWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) var(--padding-7xs-4);
+  font-size: var(--font-size-smi);
+}
+.navListItemListIte {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-mediumslateblue-100);
+}
+.navListItemListIteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-6) 0 0;
+}
+.navList9 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74.3px;
+}
+.postDetailContent,
+.postDetailContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.postDetailContent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.postDetailContentWrapper {
+  width: 149.3px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) var(--padding-7xs-3);
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+}
+.navList10 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74px;
+}
+.navListItemListIteFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) var(--padding-9xs);
+  font-size: var(--font-size-smi);
+}
+.navListItemLinkSvg {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList11 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88px;
+}
+.navListItemLinkFilWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.menuItems8,
+.navListItemLinkSvgParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemLinkSvgParent {
+  gap: var(--gap-base);
+}
+.menuItems8 {
+  padding: 0 var(--padding-base) var(--padding-9xs);
+}
+.navListItemLinkSvg1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList12 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+}
+.navListItemLinkKanWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.menuItems9,
+.navListItemLinkSvgGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navListItemLinkSvgGroup {
+  gap: var(--gap-base);
+}
+.menuItems9 {
+  padding: 0 var(--padding-base) var(--padding-8xs-1);
+}
+.navListItemLinkSvg2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navList13 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 29px;
+}
+.mailContent,
+.mailContentWrapper,
+.mailLabel,
+.menuItemsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mailLabel {
+  flex-direction: column;
+  padding: var(--padding-11xs-3) 0 0;
+}
+.mailContent,
+.mailContentWrapper,
+.menuItemsParent {
+  flex-direction: row;
+}
+.mailContent {
+  gap: var(--gap-base);
+}
+.mailContentWrapper,
+.menuItemsParent {
+  padding: 0 var(--padding-base);
+}
+.menuItemsParent {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-2xs-6);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
