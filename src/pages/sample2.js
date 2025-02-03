@@ -108,7 +108,7 @@ const Dashboard = () => {
         <div className="logo">T</div>
         <Menu theme="light" mode="inline" defaultSelectedKeys={["1"]}>
           <Menu.Item key="1" icon={<HomeOutlined />}>
-            Home
+            Home.
           </Menu.Item>
           <Menu.Item key="2" icon={<AppstoreOutlined />}>
             Dashboard
